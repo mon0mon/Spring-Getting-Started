@@ -9,10 +9,10 @@
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/building-a-hypermedia-driven-restful-web-service" />
-    <file type="web" url="file://$PROJECT_DIR$/consuming-a-restful-web-service" />
+    <file type="web" url="file://$PROJECT_DIR$/REST-APIs/building-a-hypermedia-driven-restful-web-service" />
+    <file type="web" url="file://$PROJECT_DIR$/REST-APIs/consuming-a-restful-web-service" />
   </component>
-  <component name="ProjectRootManager">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21_PREVIEW" project-jdk-name="zulu-21" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
