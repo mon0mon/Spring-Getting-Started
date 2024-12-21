@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="building-a-hypermedia-driven-restful-web-service" target="21" />
+      <module name="consuming-a-restful-web-service" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
