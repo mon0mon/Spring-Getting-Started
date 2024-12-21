@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SpringGettingStarted.iml" filepath="$PROJECT_DIR$/SpringGettingStarted.iml" />
+      <module fileurl="file://$PROJECT_DIR$/building-a-restful-web-service/building-a-restful-web-service.iml" filepath="$PROJECT_DIR$/building-a-restful-web-service/building-a-restful-web-service.iml" />
     </modules>
   </component>
 </project>
