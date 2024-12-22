@@ -69,3 +69,12 @@ project("evolution") {
     tasks.getByName<BootJar>("bootJar") { enabled = true }
 }
 
+project("links") {
+    dependencies {
+        implementation("org.springframework.boot:spring-boot-starter-hateoas")
+    }
+
+    tasks.getByName<Jar>("jar") { enabled = false }
+    tasks.getByName<BootJar>("bootJar") { enabled = true }
+}
+
