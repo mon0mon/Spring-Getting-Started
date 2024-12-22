@@ -2,5 +2,5 @@ rootProject.name = "building-rest-services-with-spring"
 
 include("nonrest")
 include("rest")
-//include("evolution")
+include("evolution")
 //include("links")
