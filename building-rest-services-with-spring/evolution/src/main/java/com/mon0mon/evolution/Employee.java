@@ -9,16 +9,19 @@ import java.util.Objects;
 @Entity
 public class Employee {
 
-    @Id @GeneratedValue
+    @Id
+    @GeneratedValue
     private Long id;
-
-    private String name;
+    private String firstName;
+    private String lastName;
     private String role;
 
-    public Employee() {}
+    public Employee() {
+    }
 
-    public Employee(String name, String role) {
-        this.name = name;
+    public Employee(String firstName, String lastName, String role) {
+        this.firstName = firstName;
+        this.lastName = lastName;
         this.role = role;
     }
 
@@ -31,11 +34,13 @@ public class Employee {
     }
 
     public String getName() {
-        return name;
+        return this.firstName + " " + this.lastName;
     }
 
     public void setName(String name) {
-        this.name = name;
+        String[] parts = name.split(" ");
+        this.firstName = parts[0];
+        this.lastName = parts[1];
     }
 
     public String getRole() {
@@ -46,19 +51,37 @@ public class Employee {
         this.role = role;
     }
 
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
     @Override
     public final boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Employee employee)) return false;
 
-        return Objects.equals(id, employee.id) && Objects.equals(name, employee.name) && Objects.equals(role, employee.role);
+        return Objects.equals(id, employee.id) && firstName.equals(employee.firstName) &&
+                lastName.equals(employee.lastName) && role.equals(employee.role);
     }
 
     @Override
     public int hashCode() {
         int result = Objects.hashCode(id);
-        result = 31 * result + Objects.hashCode(name);
-        result = 31 * result + Objects.hashCode(role);
+        result = 31 * result + firstName.hashCode();
+        result = 31 * result + lastName.hashCode();
+        result = 31 * result + role.hashCode();
         return result;
     }
 
@@ -66,7 +89,8 @@ public class Employee {
     public String toString() {
         return "Employee{" +
                 "id=" + id +
-                ", name='" + name + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
                 ", role='" + role + '\'' +
                 '}';
     }

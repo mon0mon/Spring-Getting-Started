@@ -12,7 +12,7 @@ POST http://localhost:8080/employees
 Content-Type: application/json
 
 {
-  "name": "spring",
+  "name": "spring test",
   "role": "framework"
 }
 
@@ -21,9 +21,9 @@ PUT http://localhost:8080/employees/1
 Content-Type: application/json
 
 {
-  "name": "tom",
+  "name": "tom jack",
   "role": "manager"
 }
 
 ### Delete employee
-DELETE http://localhost:8080/employees/3
+DELETE http://localhost:8080/employees/2
