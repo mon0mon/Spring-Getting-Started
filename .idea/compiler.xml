@@ -3,7 +3,19 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
       <module name="building-a-hypermedia-driven-restful-web-service" target="21" />
+      <module name="building-rest-services-with-spring.evolution" target="21" />
+      <module name="building-rest-services-with-spring.evolution.main" target="21" />
+      <module name="building-rest-services-with-spring.evolution.test" target="21" />
+      <module name="building-rest-services-with-spring.links" target="21" />
+      <module name="building-rest-services-with-spring.links.main" target="21" />
+      <module name="building-rest-services-with-spring.links.test" target="21" />
       <module name="consuming-a-restful-web-service" target="21" />
+      <module name="nonrest" target="21" />
+      <module name="nonrest.main" target="21" />
+      <module name="nonrest.test" target="21" />
+      <module name="rest" target="21" />
+      <module name="rest.main" target="21" />
+      <module name="rest.test" target="21" />
     </bytecodeTargetLevel>
   </component>
 </project>
