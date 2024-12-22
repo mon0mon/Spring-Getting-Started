@@ -31,6 +31,19 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/building-rest-services-with-spring" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/building-rest-services-with-spring" />
+            <option value="$PROJECT_DIR$/building-rest-services-with-spring/evolution" />
+            <option value="$PROJECT_DIR$/building-rest-services-with-spring/links" />
+            <option value="$PROJECT_DIR$/building-rest-services-with-spring/nonrest" />
+            <option value="$PROJECT_DIR$/building-rest-services-with-spring/rest" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/consuming-a-restful-web-service" />
         <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">

@@ -9,7 +9,11 @@
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/building-a-hypermedia-driven-restful-web-service" />
+    <file type="web" url="file://$PROJECT_DIR$/building-a-restful-web-service" />
     <file type="web" url="file://$PROJECT_DIR$/building-an-application-with-spring-boot" />
+    <file type="web" url="file://$PROJECT_DIR$/building-rest-services-with-spring" />
+    <file type="web" url="file://$PROJECT_DIR$/consuming-a-restful-web-service" />
     <file type="web" url="file://$PROJECT_DIR$/REST-APIs/building-a-hypermedia-driven-restful-web-service" />
     <file type="web" url="file://$PROJECT_DIR$/REST-APIs/consuming-a-restful-web-service" />
   </component>

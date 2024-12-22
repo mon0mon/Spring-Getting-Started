@@ -4,6 +4,18 @@
     <bytecodeTargetLevel>
       <module name="building-a-hypermedia-driven-restful-web-service" target="21" />
       <module name="consuming-a-restful-web-service" target="21" />
+      <module name="evolution" target="21" />
+      <module name="evolution.main" target="21" />
+      <module name="evolution.test" target="21" />
+      <module name="links" target="21" />
+      <module name="links.main" target="21" />
+      <module name="links.test" target="21" />
+      <module name="nonrest" target="21" />
+      <module name="nonrest.main" target="21" />
+      <module name="nonrest.test" target="21" />
+      <module name="rest" target="21" />
+      <module name="rest.main" target="21" />
+      <module name="rest.test" target="21" />
     </bytecodeTargetLevel>
   </component>
 </project>
