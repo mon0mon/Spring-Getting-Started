@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/SpringGettingStarted.iml" filepath="$PROJECT_DIR$/SpringGettingStarted.iml" />
       <module fileurl="file://$PROJECT_DIR$/building-a-hypermedia-driven-restful-web-service/building-a-hypermedia-driven-restful-web-service.iml" filepath="$PROJECT_DIR$/building-a-hypermedia-driven-restful-web-service/building-a-hypermedia-driven-restful-web-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/consuming-a-restful-web-service/consuming-a-restful-web-service.iml" filepath="$PROJECT_DIR$/consuming-a-restful-web-service/consuming-a-restful-web-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scheduling-tasks.main.iml" filepath="$PROJECT_DIR$/.idea/modules/scheduling-tasks.main.iml" />
     </modules>
   </component>
 </project>
