@@ -13,6 +13,9 @@
     <bytecodeTargetLevel>
       <module name="building-a-hypermedia-driven-restful-web-service" target="21" />
       <module name="consuming-a-restful-web-service" target="21" />
+      <module name="crud-with-vaadin" target="21" />
+      <module name="crud-with-vaadin.main" target="21" />
+      <module name="crud-with-vaadin.test" target="21" />
       <module name="evolution" target="21" />
       <module name="evolution.main" target="21" />
       <module name="evolution.test" target="21" />
